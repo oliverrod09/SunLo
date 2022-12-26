@@ -8,8 +8,8 @@ export function MyRoutes() {
   return (
     <Router>
         <Routes>
-            <Route path="/" element={<LandingPage/>}/>
-            <Route path="/search" element={<Search/>}/>
+            <Route path="/SunLo" element={<LandingPage/>}/>
+            <Route path="/SunLo/search" element={<Search/>}/>
         </Routes>
     </Router>
   )
